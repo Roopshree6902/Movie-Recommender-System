@@ -30,7 +30,7 @@ This application uses <b>Content Based Movie Recommendation (Through Cosine Simi
 ## Architecture
 
 <div align="center">
-<img src="./readme_assets/architecture.png" alt="architecture" />
+<img src="./readme-assets/architecture.png" alt="architecture" />
 </div>
 
 ## How to generate TMDB API Key?
@@ -240,14 +240,14 @@ firebase deploy
 
 <table>
     <tr>
-        <td><img src="./readme_assets/react.png" width="200px" height="200px" /></td>
-        <td><img src="./readme_assets/firebase.png" width="200px" height="200px" /></td>
-        <td><img src="./readme_assets/docker.png" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/react.png" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/firebase.png" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/docker.png" width="200px" height="200px" /></td>
     </tr>
     <tr>
-        <td><img src="./readme_assets/flask.png" width="200px" height="200px" /></td>
-        <td><img src="./readme_assets/gunicorn.png" width="200px" height="200px" /></td>
-        <td><img src="./readme_assets/heroku.jpg" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/flask.png" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/gunicorn.png" width="200px" height="200px" /></td>
+        <td><img src="./readme-assets/heroku.jpg" width="200px" height="200px" /></td>
     </tr>
 </table>
 
