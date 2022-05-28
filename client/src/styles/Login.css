@@ -1,0 +1,53 @@
+#login-page {
+    background-image: url("../login-bg.png");
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.594);
+    
+}
+
+#login-card {
+    position: relative;
+    top: calc(50vh - 144px);
+    left: calc(50vw - 210px);
+    padding-top: 36px;
+    padding-bottom: 66px;
+    width: 420px;
+    text-align: center;
+    background-color: rgba(245, 238, 238, 0.797);
+    border-radius: 22px;
+    color: black;
+    box-shadow: 0 0 30px black;
+    font-family: "Comic Sans MS";
+}
+
+#login-card:hover{
+    box-shadow: 0 0 40px rgb(131, 163, 237);
+    transform: scale(1.05);
+}
+
+.login-button {
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.github {
+    background-color: #101111;
+   
+}
+
+.google {
+    background-color: #8b3030;
+    color: white;
+}
+
