@@ -151,6 +151,18 @@ The API will be running at http://127.0.0.1:5000/
 
 <b>NOTE: </b>You can run the Flask API and the React Frontend in parallel and can use for development by replacing the baseURL, present in `client/src/api/recommenderapi.js`, with the Flask API running link.
 
+## Steps to run the Jupiter Notebooks
+<b>NOTE: </b> you need to download the following datasets from the given links and need to add them `recommendation-engine-notebooks/data` directory to be accessible for notebooks 
+<b>NOTE: </b> python 3.8 or earlier (i used python 3.7.3 to get tmdbv3 api package)
+
+
+1. [movies_metadata_2016](https://www.kaggle.com/datasets/carolzhangdc/imdb-5000-movie-dataset)
+2. [credits_2017](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+3. [movies_metadata_2017](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset)
+4. [Clean and Lemmatized Dataset]( https://drive.google.com/file/d/1zpb4709VKuis6qQIN2TjE4zfYyS7IVVE/view?usp=sharing)
+5. [IMDB 50k Movie reviews to create clean& lemmatized dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+6. Remaining Datasets are generated using `MovieRecommendationDatasetPreparation.ipynb` in `MovieRecommendationCodes folder`
+
 ## Steps to Dockerize and Deploy the Flask API on Heroku
 
 1. Clone or download the repository and open command prompt in `server` folder.
@@ -268,12 +280,7 @@ For Deployment Using Dockers
 4. [Article 4](https://itnext.io/setup-flask-project-using-docker-and-gunicorn-4dcaaa829620)
 5. [Article 5](https://philchen.com/2019/07/09/a-scalable-flask-application-using-gunicorn-on-ubuntu-18-04-in-docker)
 
-## Dataset Links
 
-1. [IMDB 5000 Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
-2. movies_metadata.csv and credits.csv from [Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
-3. Remaining Datasets are generated using `MovieRecommendationDatasetPreparation.ipynb` in `MovieRecommendationCodes folder`
-4. [IMDB 50k Movie Reviews Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 <div align="center">
 <b>Please do ⭐ this repo if you liked.</b>
