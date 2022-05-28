@@ -17,13 +17,10 @@ from tmdbv3api import TMDb
 from tmdbv3api import Movie
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from dotenv import load_dotenv
 
 nltk.download("stopwords")
 nltk.download("wordnet")
 nltk.download("punkt")
-
-load_dotenv()
 
 
 app = Flask(__name__)
@@ -54,7 +51,7 @@ count_vectorizer = CountVectorizer()
 count_matrix = count_vectorizer.fit_transform(data["movie_feature"])
 similarity_matrix = cosine_similarity(count_matrix)
 tmdb = TMDb()
-TMDB_API_KEY = os.getenv('TMDB_API_KEY')
+TMDB_API_KEY = "e78afd2160ac578078701b6091e8c0ff"
 tmdb.api_key = TMDB_API_KEY
 
 CLASSIFIER_PATH = "./utils/movie_recommendation/sentiment_classifier.pkl"
