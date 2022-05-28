@@ -37,7 +37,7 @@ This application uses <b>Content Based Movie Recommendation (Through Cosine Simi
 
 1. Login to you your tmdb account: https://www.themoviedb.org/ or create one if you dont have.
 2. Then open https://www.themoviedb.org/settings/api link and create your api key by filing all the necessary information.
-3. <b>IMPORTANT:</b> After generating the TMDB API KEY, replace "ENTER YOUR TMDB_API_KEY" with your generated key in the API(app.py File Line-57) and FRONTEND(src->Utils.js->Line-3) code.
+3. <b>IMPORTANT:</b> After generating the TMDB API KEY, replace "ENTER YOUR TMDB_API_KEY" with your generated key in the server directory (app.py File) and client (src->utils.js) code.
 
 ## TMDB API End Points
 
