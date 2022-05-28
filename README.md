@@ -24,7 +24,7 @@ This application uses <b>Content Based Movie Recommendation (Through Cosine Simi
 ## Demo
 
 <div align="center">
-<img src="./readme_assets/demo.gif" alt="demo" />
+<img src="./readme-assets/demo.gif" alt="demo" />
 </div>
 
 ## Architecture
