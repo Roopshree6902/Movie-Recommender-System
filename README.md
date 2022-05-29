@@ -19,7 +19,7 @@ This application uses <b>Content Based Movie Recommendation (Through Cosine Simi
 
 <b>Deployed Web Application Link: </b>https://movie-recommender-system-3408e.web.app/<br/>
 <b>Deployed Flask API Link: </b>https://epic-mrs-api.herokuapp.com/<br/>
-<b>Youtube Demo Link: </b>
+<b>Youtube Demo Link: </b>https://www.youtube.com/watch?v=O6cX2WNxVBc
 
 ## Demo
 
