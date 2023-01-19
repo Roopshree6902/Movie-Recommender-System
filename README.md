@@ -170,7 +170,7 @@ The API will be running at http://127.0.0.1:5000/
 3. Download the docker desktop based on you windows version from the official website of Dockers and login to the docker desktop.
 4. Start the Docker desktop in you machine.
 5. The Dockerfile for dockerinzing this Flask API is already present in the Server folder.
-6. Open command prompt in API folder and run the below mentioned commands:
+6. Open command prompt in Server folder and run the below mentioned commands:
 7. Building the Image:
 
 ```
