@@ -1,5 +1,5 @@
 <div align="center">
-
+<br>
 <h1>Movie Recomendation System with Sentiment Analysis</h1>
 <img src="https://img.shields.io/badge/Python-3.7.3-brown" />
 <img src="https://img.shields.io/badge/Frontend-ReactJS-orange" />
